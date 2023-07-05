@@ -1,0 +1,26 @@
+#strings:
+#  inputs:
+#    - Packages/Resources/Sources/Resources/Localization/ru.lproj
+#  outputs:
+#    - templateName: structured-swift5
+#      output: Packages/Resources/Sources/Resources/Generated/L10n.swift
+#      params:
+#        publicAccess: 1
+
+xcassets:
+    inputs:
+      - Market/Resources/Assets.xcassets
+    outputs:
+      - templateName: swift5
+        output: Market/Resources/Generated/Asset.swift
+        params:
+          publicAccess: 1
+
+fonts:
+    inputs:
+      - Market/Resources/Fonts
+    outputs:
+      - templateName: swift5
+        output: Market/Resources/Generated/FontFamily.swift
+        params:
+          publicAccess: 1
